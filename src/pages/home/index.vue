@@ -61,9 +61,9 @@ export default {
   data() {
     return {
       bannerUrl: [
-        { url: "/static/images/town1.jpg" },
-        { url: "/static/images/town2.jpg" },
-        { url: "/static/images/town3.jpg" }
+        { url: "/static/images/t03.png" },
+        { url: "/static/images/t02.png" },
+        { url: "/static/images/t01.png" }
       ],
       navInfo: [
         {type: 'send-gift', title: '健康评估', color: '#E76262', url: '../spot/main'},

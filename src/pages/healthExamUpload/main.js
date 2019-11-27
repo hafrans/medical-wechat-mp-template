@@ -15,9 +15,9 @@ const app = new Vue({
     data() {
         return {
             fileList: [
-                 { url: '/static/images/hotel3.jpeg' },
-                 { url: '/static/images/hotel2.jpeg' },
-                 { url: '/static/images/hotel1.jpeg' },
+                 { url: '/static/images/exam01.jpg' },
+                 { url: '/static/images/exam02.jpg' },
+                 { url: '/static/images/exam03.jpg' },
             ],
             captiond: "asdasdad",
             title: "",

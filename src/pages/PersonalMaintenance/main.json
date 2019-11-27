@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "我的订单",
+  "navigationBarTitleText": "个性化养护",
   "usingComponents": {
       "van-button": "/static/vant/button/index",
       "van-swipe": "/static/vant/swipe-cell/index",

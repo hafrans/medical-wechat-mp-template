@@ -71,7 +71,7 @@
       </div>
       <van-cell title="查看全部用户评价" is-link :value="cellValue" />
     </div> -->
-     <CommentList :commentList="commentList" :type="0" :category="detail.category" :id="detail.id" />
+     <!-- <CommentList :commentList="commentList" :type="0" :category="detail.category" :id="detail.id" /> -->
     <!-- <div class="divider"></div>
      <div class="main">
        <div class="recommend">推荐</div>
@@ -95,6 +95,11 @@ import brandItem from '@/components/brandItem.vue'
 export default {
   data() {
     return {
+      attentionList: [
+        {list: '本品為熱閉神昏所設, 寒閉神昏不得使用。'}, {list: '運動員及過敏體質者慎用。'}, {list: '服藥期間飲食宜清淡, 忌食辛辣食物。'},
+        {list: '本品含朱砂、雄黃, 不宜過量、久用, 肝腎功能不全者慎用。'}, {list: '在治療過程中出現肢寒畏冷, 面色蒼白, 冷汗不止, 脈微欲絕, 由閉證變為脫證時應立即停藥。'}, {list: '服食過量可能會有危險。'},
+        {list: '兒童必須在成人的監護下使用。'}, {list: '如正服用其他藥品，使用本品前請諮詢醫師。'}, {list: '服用前應除去蠟皮、塑膠球殼及玻璃紙；本品可嚼服，也可分份吞服。'},
+      ],
       detail: {
         category: 0,
         name: '北京同仁堂安宮牛黃丸',
@@ -217,5 +222,15 @@ export default {
   font-size: 28rpx;
   color: #afafaf;
   margin-top: 20rpx;
+}
+.attention {
+  padding: 20rpx;
+  .attentionCon {
+    font-size: 25rpx;
+   line-height: 50rpx;
+    .symbol {
+      color: rgb(153,51,51);
+    }
+  }
 }
 </style>
